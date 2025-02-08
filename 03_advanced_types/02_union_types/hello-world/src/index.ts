@@ -1,6 +1,10 @@
-function calculateTax(income: number, taxYear: number = 2022) {
-    if (taxYear < 2022) {
-      return income * 1.3;
-    }
-    return income * 1.2;
+function convertWeight(weight: number | string) {
+  if (typeof weight === "number") {
+    return weight * 2.2;
+  } else {
+    return parseFloat(weight) * 2.2;
   }
+}
+
+console.log(convertWeight(10)); // Output: 22
+console.log(convertWeight("10 kg")); // Output: 22
