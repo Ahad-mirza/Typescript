@@ -20,11 +20,13 @@ OOP is a powerful programming paradigm that models real-world objects and their 
 This repository is organized into different sub-folders for each concept. Each folder contains explanations, examples, and code snippets to help you understand the topics better.
 
 ### Explore the Concepts:
-- [**OOP Intro**](./oop_intro) – A brief introduction to Object-Oriented Programming principles.
-- [**Classes, Objects, Readonly and Optional Prop**](./classes_objects_readonly_optional_prop) – Learn about classes, objects, and how to use readonly and optional properties.
-- [**Access Control Keywords**](./access_control_keyword) – A detailed guide to using **public**, **private**, and **protected** access modifiers.
-- [**Parameter Prop**](./parameter_prop) – Learn how to use parameter properties to simplify class constructors.
-- [**Getter and Setter**](./getter_setter) – Learn how to access and modify class properties with controlled getters and setters.
+- [**OOP Intro**](https://github.com/Ahad-mirza/Typescript/tree/main/04_object_oriented_programming/01_oop_intro)
+- [**Classes**](https://github.com/Ahad-mirza/Typescript/tree/main/04_object_oriented_programming/02_classes)
+- [**Objects**](https://github.com/Ahad-mirza/Typescript/tree/main/04_object_oriented_programming/03_creating_objects)
+- [**Readonly and Optional Prop**](https://github.com/Ahad-mirza/Typescript/tree/main/04_object_oriented_programming/04_readonly_and_optional_prop)
+- [**Access Control Keywords**](https://github.com/Ahad-mirza/Typescript/tree/main/04_object_oriented_programming/05_access_control_keyword)
+- [**Parameter Prop**](https://github.com/Ahad-mirza/Typescript/tree/main/04_object_oriented_programming/06_parameter_prop)
+- [**Getter and Setter**](https://github.com/Ahad-mirza/Typescript/tree/main/04_object_oriented_programming/07_getter_and_setter)
 
 ---
 
