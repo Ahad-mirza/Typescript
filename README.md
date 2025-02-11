@@ -1,5 +1,5 @@
 
-# TypeScript Mastery 🦸‍♂️🚀
+# TypeScript Mastery 🦸‍♂
 
 Welcome to my **TypeScript** repository! 🎉 This repository is designed to help you dive deep into **TypeScript**, covering everything from the **fundamentals** to **advanced types** and **Object-Oriented Programming (OOP)**. Whether you're a beginner or an advanced learner, this repo has something for everyone. 🌟
 
