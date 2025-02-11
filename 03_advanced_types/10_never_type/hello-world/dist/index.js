@@ -1,8 +1,7 @@
 "use strict";
-let employee = {
-    id: 1,
-    name: 'Mosh',
-    retire: (date) => {
-        console.log(date);
+function processEvents() {
+    while (true) {
     }
-};
+}
+processEvents();
+console.log('hello world');

@@ -1,101 +1,79 @@
+# 🔥 The `never` Type in TypeScript
 
-# 📌 **Advanced TypeScript Types**  
-🔹 *A structured guide to mastering advanced TypeScript types!*  
+## 📚 Table of Contents
+- [📌 Introduction](#-introduction)
+- [🛠️ Example 1: Function That Never Returns](#️-example-1-function-that-never-returns)
+- [🛠️ Example 2: Function That Always Throws an Error](#️-example-2-function-that-always-throws-an-error)
+- [⚙️ Configuring `allowUnreachableCode` in tsconfig.json](#-configuring-allowunreachablecode-in-tsconfigjson)
+- [💡 Why Use `never`?](#-why-use-never)
+- [🚀 Takeaway](#-takeaway)
 
----
+## 📌 Introduction
+The `never` type in TypeScript represents values that **never occur**. It is used for functions that **never return** or always **throw an error**. Although not commonly used, it has important applications in ensuring **type safety** and **unreachable code detection**.
 
-## 📂 **Folder Structure**  
+## 🛠️ Example 1: Function That Never Returns
+Let's define a function called `processEvents`, which **runs indefinitely** and never returns:
+
+```ts
+function processEvents(): never {
+    while (true) {
+        }
+    console.log("Processing event...");
+}
 ```
-advanced_types/
-│── 01_type_aliases/
-│── 02_union_types/
-│── 03_intersection_types/
-│── 04_literal_types/
-│── 05_nullable_types/
-│   ├── hello-world/
-│── 06_optional_chaining/
-│── 07_nullish_coalescing/
-│── 08_type_assertions/
-│── 09_unknown_type/
-│── 10_never_type/
-│   ├── hello-world/
+
+### 🔍 Explanation:
+- The function **never exits** because it runs in an **infinite loop**.
+- The return type is `never`, indicating that this function **never returns a value**.
+- TypeScript **grays out** any code after calling this function since it is **unreachable**.
+
+## 🛠️ Example 2: Function That Always Throws an Error
+Another use case of `never` is when a function **always throws an error**:
+
+```ts
+function reject(message: string): never {
+    throw new Error(message);
+}
 ```
 
----
+### 🔍 Explanation:
+- This function **never returns** a value because it always **throws an error**.
+- TypeScript infers its return type as `never`.
+- Any code written after calling this function is **unreachable**.
 
-## 📖 **Table of Contents**  
+## ⚙️ Configuring `allowUnreachableCode` in tsconfig.json
+TypeScript provides an option in `tsconfig.json` to control whether **unreachable code** is allowed. By default, it may be `true`, but we can **disable it** for better type safety.
 
-### 1️⃣ **[Type Aliases](01_type_aliases/)**  
-✅ **Explained in this repository:**  
-- How to create custom type names.  
-- Why type aliases improve readability and reusability.  
+### 🔧 Steps to Disable `allowUnreachableCode`:
+1. Open your `tsconfig.json` file.
+2. Locate the following line:
 
----
+   ```json
+   // "allowUnreachableCode": true,
+   ```
+3. Uncomment the line (remove `//` at the beginning if it's commented out).
+4. Change its value from `true` to `false`:
 
-### 2️⃣ **[Union Types](02_union_types/)**  
-✅ **Explained in this repository:**  
-- How to define variables that can have multiple types.  
-- When to use union types for flexibility.  
+   ```json
+   "allowUnreachableCode": false
+   ```
+5. Save the file and restart your TypeScript compiler if necessary.
 
----
+### 📌 Why Disable It?
+- Ensures the TypeScript compiler **flags unreachable code**.
+- Helps catch **logical errors** before runtime.
+- Enforces better **code discipline and readability**.
 
-### 3️⃣ **[Intersection Types](03_intersection_types/)**  
-✅ **Explained in this repository:**  
-- How to merge multiple types into one.  
-- Use cases of intersection types in complex objects.  
+## 💡 Why Use `never`?
+✅ **Helps the Compiler Detect Unreachable Code**: The TypeScript compiler can **reason about sections of code** and detect **dead code**.
+✅ **Ensures Functions Behave as Expected**: Functions that should never return are explicitly marked as `never`.
+✅ **Improves Code Safety**: TypeScript warns when unreachable code exists, preventing potential logical errors.
 
----
+## 🚀 Takeaway
+- The `never` type is used when a function **never returns** or **always throws an error**.
+- It helps **TypeScript detect unreachable code** and ensures proper **code safety**.
+- Disable `"allowUnreachableCode"` in `tsconfig.json` to enforce strict type checking.
+- In the next section, we will explore **classes and interfaces** to structure our code better.
 
-### 4️⃣ **[Literal Types](04_literal_types/)**  
-✅ **Explained in this repository:**  
-- How to restrict variables to specific values.  
-- The difference between literal types and enums.  
 
----
 
-### 5️⃣ **[Nullable Types](05_nullable_types/hello-world/)**  
-✅ **Explained in this repository:**  
-- Handling `null` and `undefined` in TypeScript.  
-- Best practices for working with nullable values.  
-
----
-
-### 6️⃣ **[Optional Chaining](06_optional_chaining/)**  
-✅ **Explained in this repository:**  
-- How to safely access nested properties.  
-- Why optional chaining prevents runtime errors.  
-
----
-
-### 7️⃣ **[Nullish Coalescing](07_nullish_coalescing/)**  
-✅ **Explained in this repository:**  
-- How to provide default values when a variable is `null` or `undefined`.  
-- Difference between `??` (nullish coalescing) and `||` (logical OR).  
-
----
-
-### 8️⃣ **[Type Assertions](08_type_assertions/)**  
-✅ **Explained in this repository:**  
-- How to manually tell TypeScript about a value’s type.  
-- When to use type assertions safely.  
-
----
-
-### 9️⃣ **[Unknown Type](09_unknown_type/)**  
-✅ **Explained in this repository:**  
-- Why `unknown` is safer than `any`.  
-- How to work with unknown types using type checks.  
-
----
-
-### 🔟 **[Never Type](10_never_type/hello-world/)**  
-✅ **Explained in this repository:**  
-- What the `never` type is and why it exists.  
-- When to use `never` in functions that don't return.  
-
----
-
-## 🎯 **Summary**  
-📌 This repository explains **advanced TypeScript types** in a structured way.  
-📌 Each folder contains **detailed explanations and examples**.  
-📌 **Follow the examples to deepen your understanding of TypeScript!**  
