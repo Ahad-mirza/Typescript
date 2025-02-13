@@ -1,3 +1,4 @@
+
 # Static Properties in TypeScript
 
 ## Table of Contents
