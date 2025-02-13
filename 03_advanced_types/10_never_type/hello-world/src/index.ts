@@ -1,4 +1,4 @@
-function processEvents():never{
+function processEvents(){
   while (true){
 
   }
