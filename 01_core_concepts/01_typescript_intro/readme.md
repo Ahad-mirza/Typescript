@@ -1,3 +1,4 @@
+
 # TypeScript: The Supercharged JavaScript 🚀
 
 ## 📜 Table of Contents
