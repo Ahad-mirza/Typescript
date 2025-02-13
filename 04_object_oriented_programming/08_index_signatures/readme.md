@@ -1,3 +1,4 @@
+
 # Index Signatures in TypeScript
 
 ## Table of Contents
