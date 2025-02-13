@@ -5,7 +5,7 @@
 2. What is Object-Oriented Programming?
 3. Properties and Methods in OOP
 4. Real-World Examples of OOP
-5. OOP vs Functional Programming
+5. OOP vs Functional Programming 
 
 ---
 
