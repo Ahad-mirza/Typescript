@@ -1,5 +1,3 @@
-
-
 # 🚀 **Core Concepts in TypeScript** 🌟
 
 Welcome to the **Core Concepts** section of my TypeScript repository! In this folder, I’ve broken down the key building blocks of TypeScript to ensure you get a solid understanding of the language. Whether you're just starting or refining your skills, these concepts will set the foundation for your TypeScript journey.
