@@ -1,4 +1,5 @@
-# 📚 TypeScript Functions Explained
+
+# 📚 TypeScript Functions
 
 Welcome to this guide on **Functions in TypeScript**! 🚀 This README explains how TypeScript helps prevent common issues when working with functions.
 
