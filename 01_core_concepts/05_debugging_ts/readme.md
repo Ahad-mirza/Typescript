@@ -1,5 +1,6 @@
 
-### Setting up Debugging in VS Code for TypeScript:
+
+# Setting up Debugging in VS Code for TypeScript:
 
 To effectively debug TypeScript applications in Visual Studio Code, you'll need to configure both the **`launch.json`** and the **`tsconfig.json`** files, and ensure that TypeScript is being compiled correctly. Here's a clear guide:
 
