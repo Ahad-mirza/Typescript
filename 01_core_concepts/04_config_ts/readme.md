@@ -1,4 +1,5 @@
 
+
 # Configuring TypeScript Compiler (`tsconfig.json`) ⚙️
 
 ## 📜 Table of Contents
