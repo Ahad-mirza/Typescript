@@ -1,3 +1,4 @@
+
 # 🔥 The `never` Type in TypeScript
 
 ## 📚 Table of Contents
