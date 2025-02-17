@@ -1,4 +1,3 @@
-
 # Object-Oriented Programming (OOP) in TypeScript 🖥️💡
 
 Welcome to the **OOP in TypeScript** section of this repository! 🎉 In this folder, we’ll be diving deep into the core concepts of Object-Oriented Programming (OOP), which will allow you to create more organized, scalable, and maintainable code. 🌍
