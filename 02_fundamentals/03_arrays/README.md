@@ -1,3 +1,4 @@
+
 # 📚 Understanding Arrays in TypeScript
 
 Welcome to this guide on **Arrays** in TypeScript! 🚀 This README explains the differences between arrays in JavaScript and TypeScript, focusing on type safety, code examples, and key features.

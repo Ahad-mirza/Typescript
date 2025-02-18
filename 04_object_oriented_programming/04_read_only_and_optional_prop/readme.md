@@ -1,4 +1,3 @@
-
 # Readonly and Optional properties(Modifiers)
 
 This project demonstrates how to use TypeScript modifiers to create more robust and predictable systems. It focuses on **`readonly`** and **optional properties** to make properties more controlled and flexible.

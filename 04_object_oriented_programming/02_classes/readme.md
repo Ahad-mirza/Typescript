@@ -1,3 +1,4 @@
+
 # Create Classes in TypeScript
 ## Table of Contents 📜
 - [Class Definition](#class-definition)

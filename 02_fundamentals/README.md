@@ -1,4 +1,3 @@
-
 # 📚 Fundamentals of TypeScript
 
 Welcome to the **Fundamentals of TypeScript** folder! This repository covers the core concepts of TypeScript, designed to help you build a strong foundation in this powerful language. 🚀

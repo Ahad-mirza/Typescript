@@ -1,5 +1,3 @@
-
-
 # ✨ Properties and Getters/Setters in TypeScript
 
 In TypeScript, we can simplify property initialization using **parameter properties** and ensure robust data handling with **getters** and **setters**. This allows for more concise and maintainable code, while also enforcing validation when necessary.

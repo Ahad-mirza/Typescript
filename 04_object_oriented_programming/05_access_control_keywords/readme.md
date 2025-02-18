@@ -1,4 +1,3 @@
-
 # 🏦Access Control Modifiers
 
 This example demonstrates how to use **access control keywords** in TypeScript, specifically focusing on the **`private`** keyword and the common **underscore (`_`)** prefix convention for private properties. These tools help us control access to class properties and methods, making our code more secure and robust.

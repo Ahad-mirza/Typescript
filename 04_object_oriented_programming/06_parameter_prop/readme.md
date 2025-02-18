@@ -1,5 +1,3 @@
-
-
 # ✨ Parameter prop and consice code
 
 In TypeScript, when you define a class, you often need to create a constructor with parameters to initialize class properties. This pattern can be repetitive, especially when you have many properties. TypeScript offers a cool feature that allows you to define and initialize properties directly in the constructor by using **access modifiers** (`public`, `private`, `readonly`). This makes your code much more concise and easier to maintain.

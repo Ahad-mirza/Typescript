@@ -1,3 +1,4 @@
+
 # 📚 Understanding the `any` Type in TypeScript
 
 Welcome to this guide on the **`any`** type in TypeScript! 🚀 This README focuses solely on the provided content, explaining the usage of `any`, its impact on type safety, and why it's considered a bad practice.

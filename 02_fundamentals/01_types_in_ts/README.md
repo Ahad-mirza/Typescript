@@ -1,3 +1,4 @@
+
 # 📚 TypeScript Data Types Explained
 
 Welcome to this guide on **TypeScript Data Types**! 🚀 This README provides a line-by-line explanation of key concepts, making it easy to understand for beginners and developers transitioning from JavaScript.

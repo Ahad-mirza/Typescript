@@ -1,3 +1,4 @@
+
 # 👨‍🏫 Inheritance in TypeScript
 
 Inheritance is a core concept in Object-Oriented Programming (OOP) that allows us to reuse common properties and methods across multiple classes. In TypeScript, we achieve this by creating a base class and extending it in derived classes.

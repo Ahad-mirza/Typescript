@@ -1,3 +1,4 @@
+
 # 📚 Understanding Enums in TypeScript
 
 Welcome to this guide on **Enums** in TypeScript! 🚀 This README explains what enums are, how to use them, and why they are helpful when working with related constants.

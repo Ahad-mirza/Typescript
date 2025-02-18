@@ -1,3 +1,4 @@
+
 # Setting Up a TypeScript Project and Understanding Type Annotations 🛠️
 
 ## 📜 Table of Contents

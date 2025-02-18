@@ -1,3 +1,4 @@
+
 # 🔄 Method Overriding in TypeScript
 
 Method overriding allows derived classes to change the behavior of methods or properties defined in a base class. This is useful when a subclass needs to provide specialized behavior while keeping the original structure intact.
