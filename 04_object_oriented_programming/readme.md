@@ -4,7 +4,9 @@ Welcome to the **OOP in TypeScript** section of this repository! 🎉 In this fo
 
 OOP is a powerful programming paradigm that models real-world objects and their interactions. By leveraging classes and objects, we can easily structure and manage data while keeping code clean and reusable. 🌟 TypeScript brings an added layer of static typing and object-oriented features to help you write robust and reliable applications. 🛠️
 
-### 🌟 Why Learn OOP?
+---
+
+## 🌟 Why Learn OOP?
 
 1. **Modularity:** OOP allows you to break down complex problems into smaller, more manageable chunks.
 2. **Code Reusability:** Once you create a class, it can be reused across your project without redundant code.
@@ -25,6 +27,10 @@ This repository is organized into different sub-folders for each concept. Each f
 - [**Access Control Keywords**](https://github.com/Ahad-mirza/Typescript/tree/main/04_object_oriented_programming/05_access_control_keyword)
 - [**Parameter Prop**](https://github.com/Ahad-mirza/Typescript/tree/main/04_object_oriented_programming/06_parameter_prop)
 - [**Getter and Setter**](https://github.com/Ahad-mirza/Typescript/tree/main/04_object_oriented_programming/07_getter_and_setter)
+- [**Index Signatures**](https://github.com/Ahad-mirza/Typescript/tree/main/04_object_oriented_programming/08_index_signatures)
+- [**Static Members**](https://github.com/Ahad-mirza/Typescript/tree/main/04_object_oriented_programming/09_static_members)
+- [**Inheritance**](https://github.com/Ahad-mirza/Typescript/tree/main/04_object_oriented_programming/10_inheritance)
+- [**Override Method**](https://github.com/Ahad-mirza/Typescript/tree/main/04_object_oriented_programming/11_override_method)
 
 ---
 
@@ -50,5 +56,17 @@ Simplify constructor syntax by using **parameter properties**, making your code 
 
 ### 6. **Getters and Setters** 🔄
 Learn how to create controlled access to class properties with **getters** and **setters**, allowing you to perform logic when getting or setting values.
+
+### 7. **Index Signatures** 📚
+Learn how to use index signatures to define dynamic object properties when the property names are not known in advance.
+
+### 8. **Static Members** ⚡
+Understand how to create class-level properties and methods that can be accessed without creating an instance of the class.
+
+### 9. **Inheritance** 👨‍👩‍👧
+Dive into **inheritance**, where one class can derive properties and behaviors from another, promoting code reuse and establishing relationships between classes.
+
+### 10. **Override Method** 🔄
+Explore method overriding, allowing a subclass to provide a specific implementation of a method already defined in its parent class.
 
 ---
