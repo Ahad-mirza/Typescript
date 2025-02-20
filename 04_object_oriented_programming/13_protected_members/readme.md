@@ -1,3 +1,4 @@
+
 # 🔒 Understanding Protected Members in TypeScript
 
 In TypeScript, class members can be marked as `public`, `private`, or `protected`. While you may already be familiar with public and private members, **protected members** introduce an additional level of access control that is useful in inheritance scenarios.
