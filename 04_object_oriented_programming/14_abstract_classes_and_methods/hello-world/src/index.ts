@@ -15,5 +15,7 @@ class Circle extends Shape {
 }
 
 let circle = new Circle('red', 5);
-circle.render(); 
+circle.render();
+// Output:
+// Drawing a circle of color red with radius 5
 
