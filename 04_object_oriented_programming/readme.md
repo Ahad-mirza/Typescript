@@ -3,8 +3,6 @@
 
 Welcome to the **OOP in TypeScript** section of this repository! 🎉 In this folder, we’ll be diving deep into the core concepts of Object-Oriented Programming (OOP), which will allow you to create more organized, scalable, and maintainable code. 🌍
 
-OOP is a powerful programming paradigm that models real-world objects and their interactions. By leveraging classes and objects, we can easily structure and manage data while keeping code clean and reusable. 🌟 TypeScript brings an added layer of static typing and object-oriented features to help you write robust and reliable applications. 🛠️
-
 ---
 
 ## 🌟 Why Learn OOP?
@@ -32,42 +30,110 @@ This repository is organized into different sub-folders for each concept. Each f
 - [**Static Members**](https://github.com/Ahad-mirza/Typescript/tree/main/04_object_oriented_programming/09_static_members)
 - [**Inheritance**](https://github.com/Ahad-mirza/Typescript/tree/main/04_object_oriented_programming/10_inheritance)
 - [**Override Method**](https://github.com/Ahad-mirza/Typescript/tree/main/04_object_oriented_programming/11_override_method)
+- [**Polymorphism**](https://github.com/Ahad-mirza/Typescript/tree/main/04_object_oriented_programming/12_polymorphism)
+- [**Protected Members**](https://github.com/Ahad-mirza/Typescript/tree/main/04_object_oriented_programming/13_protected_members)
+- [**Abstract Classes and Methods**](https://github.com/Ahad-mirza/Typescript/tree/main/04_object_oriented_programming/14_abstract_classes_and_methods)
+- [**Interfaces**](https://github.com/Ahad-mirza/Typescript/tree/main/04_object_oriented_programming/15_interfaces)
 
 ---
 
 ## 🔎 What You'll Learn Here
 
-In this folder, we explain the following key OOP concepts in TypeScript:
-
 ### 1. **OOP Introduction** 📘
 An introduction to the core principles of OOP, including **Encapsulation**, **Abstraction**, **Inheritance**, and **Polymorphism**. We’ll set the foundation for all other concepts you’ll learn here.
+
+_Image: OOP_Introduction_Diagram.png_
+
+---
 
 ### 2. **Classes and Objects** 🏷️
 - **Classes:** The blueprint for creating objects, where we define properties and methods.
 - **Objects:** Instances of classes that hold actual data and interact with other objects.
 
+_Image: Classes_Objects_Example.png_
+
+---
+
 ### 3. **Readonly and Optional Properties** 🔒
 Learn how to create properties that are **immutable** (readonly) or **optional** (with defaults) to increase the flexibility and integrity of your classes.
+
+_Image: Readonly_Optional_Props.png_
+
+---
 
 ### 4. **Access Control Keywords** 🔑
 Understand the importance of access control in OOP with **public**, **private**, and **protected** keywords, which help you define how and where properties and methods can be accessed or modified.
 
+_Image: Access_Control_Keywords.png_
+
+---
+
 ### 5. **Parameter Properties** 🎯
 Simplify constructor syntax by using **parameter properties**, making your code more concise and readable.
+
+_Image: Parameter_Properties_Example.png_
+
+---
 
 ### 6. **Getters and Setters** 🔄
 Learn how to create controlled access to class properties with **getters** and **setters**, allowing you to perform logic when getting or setting values.
 
+_Image: Getters_Setters_Example.png_
+
+---
+
 ### 7. **Index Signatures** 📚
 Learn how to use index signatures to define dynamic object properties when the property names are not known in advance.
+
+_Image: Index_Signatures.png_
+
+---
 
 ### 8. **Static Members** ⚡
 Understand how to create class-level properties and methods that can be accessed without creating an instance of the class.
 
+_Image: Static_Members.png_
+
+---
+
 ### 9. **Inheritance** 👨‍👩‍👧
 Dive into **inheritance**, where one class can derive properties and behaviors from another, promoting code reuse and establishing relationships between classes.
 
+_Image: Inheritance_Diagram.png_
+
+---
+
 ### 10. **Override Method** 🔄
 Explore method overriding, allowing a subclass to provide a specific implementation of a method already defined in its parent class.
+
+_Image: Override_Method.png_
+
+---
+
+### 11. **Polymorphism** 🔄
+Understand how polymorphism allows you to define methods in multiple forms, enhancing flexibility and reusability.
+
+_Image: Polymorphism_Example.png_
+
+---
+
+### 12. **Protected Members** 🛡️
+Learn how to use **protected** members to restrict access to class properties and methods to the class itself and its subclasses.
+
+_Image: Protected_Members.png_
+
+---
+
+### 13. **Abstract Classes and Methods** 🏛️
+Understand how to define abstract classes and methods to provide a blueprint for derived classes without implementing complete functionality.
+
+_Image: Abstract_Classes_Methods.png_
+
+---
+
+### 14. **Interfaces** 📄
+Learn how to use interfaces to define contracts for classes and objects, ensuring consistency across your codebase.
+
+_Image: Interfaces_Example.png_
 
 ---
