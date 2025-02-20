@@ -1,4 +1,3 @@
-
 # Abstract Classes and Methods in TypeScript
 
 ## 📚 Table of Contents
