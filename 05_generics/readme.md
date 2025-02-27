@@ -10,7 +10,7 @@ This folder contains well-structured explanations of **key generics concepts** t
 ## 📂 Folder Structure 📁
 Explore the key concepts of **Generics** in TypeScript:
 
-### 📌 [1️⃣ Problem Without Generics]([./problem-without-generics/README.md](https://github.com/Ahad-mirza/Typescript/tree/main/05_generics/01_problem_without_generics))
+### 📌 [1️⃣ Problem Without Generics](https://github.com/Ahad-mirza/Typescript/tree/main/05_generics/01_problem_without_generics)
 🔹 Understand **why generics are needed** by exploring common problems without them.
 
 ### 📌 [2️⃣ Generic Classes](https://github.com/Ahad-mirza/Typescript/tree/main/05_generics/02_generic-classes)
