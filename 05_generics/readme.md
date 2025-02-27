@@ -13,10 +13,10 @@ Explore the key concepts of **Generics** in TypeScript:
 ### 📌 [1️⃣ Problem Without Generics](https://github.com/Ahad-mirza/Typescript/tree/main/05_generics/01_problem_without_generics)
 🔹 Understand **why generics are needed** by exploring common problems without them.
 
-### 📌 [2️⃣ Generic Classes](https://github.com/Ahad-mirza/Typescript/tree/main/05_generics/02_generic-classes)
+### 📌 [2️⃣ Generic Classes](https://github.com/Ahad-mirza/Typescript/tree/main/05_generics/02_generic_classes)
 🔹 Create **reusable generic classes** that work with multiple data types.
 
-### 📌 [3️⃣ Generic Functions](https://github.com/Ahad-mirza/Typescript/tree/main/05_generics/03_generic-functions)
+### 📌 [3️⃣ Generic Functions](https://github.com/Ahad-mirza/Typescript/tree/main/05_generics/03_generic_functions)
 🔹 Enhance **code reusability** with functions that adapt to various data types.
 
 🚧 **Work in Progress:** The following topics are currently being developed and will be updated soon! 🚀
