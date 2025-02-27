@@ -1,3 +1,4 @@
+
 # 🚀 Introduction to Generic Classes in TypeScript
 
 ## 📌 Table of Contents
